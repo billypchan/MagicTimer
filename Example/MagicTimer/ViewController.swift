@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         timer.isActiveInBackground = false
         timer.font = UIFont.systemFont(ofSize: 45, weight: .bold)
-        timer.mode = .stopWatch
+        timer.mode = .countDown(fromSeconds: 10)
         timer.delegate = self
     }
     
